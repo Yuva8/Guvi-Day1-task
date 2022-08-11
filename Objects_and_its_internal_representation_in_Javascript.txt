@@ -1,0 +1,33 @@
+Question:
+--------
+Write a blog about objects and its internal representation in Javascript
+
+Answer:
+-------
+
+1. Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript
+
+2. Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+
+3. An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+
+4. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation.
+
+    EX:  objectName.propertyName
+
+5. Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value.
+
+    var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
+myCar['make'] = 'Ford';
+myCar['model'] = 'Mustang';
+myCar['year'] = 1969;
+
+
+6. Creating Objects In JavaScript :
+
+    let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
